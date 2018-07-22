@@ -241,6 +241,9 @@ build_kernel() {
   config n DEBUG_KERNEL
   config mcl DEFAULT_HOSTNAME
 
+  # RNG
+  config y HW_RANDOM_VIRTIO
+
   # Network Driers
   config y VIRTIO
   config y VIRTIO_PCI
